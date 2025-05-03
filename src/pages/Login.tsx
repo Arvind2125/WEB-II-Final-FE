@@ -4,10 +4,6 @@ import { motion } from 'framer-motion';
 import { useAuth } from "../utils/AuthProvider";
 import axios from "../utils/AxiosInstance";
 
-interface LoginInput {
-  email: string;
-  password: string;
-}
 
 export const Login = () => {
   const [email, setEmail] = useState('');
