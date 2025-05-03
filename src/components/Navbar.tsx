@@ -8,7 +8,6 @@ import {
 import { BellIcon } from "@heroicons/react/16/solid";
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../utils/AuthProvider";
-import drumSVG from "../img/drum.svg";
 
 const navigation = [
   { name: "Home", to: "/", current: false },
@@ -31,7 +30,7 @@ const Navbar = () => {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Drum Shop"
-                src={drumSVG}
+                src="/drum.svg"
                 className="h-8 w-auto"
               />
             </div>
